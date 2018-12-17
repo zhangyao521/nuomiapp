@@ -1,0 +1,316 @@
+/* 通用 */
+
+.w1180 {
+    width: 1180px;
+}
+
+.mg_center {
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+/* 头部三个图片 */
+
+.mkt_head {
+    height: 64px;
+    padding: 13px 0;
+}
+
+.mkt_head .nuomilog {
+    float: left;
+    margin-right: 27px;
+    background: url(//webresource.c-ctrip.com/ResUnionOnline/R3/PcHeader/NuoMi/IMG/nuomilog.png) no-repeat;
+    height: 64px;
+    width: 175px;
+}
+
+.mkt_head .bst {
+    float: left;
+    margin-right: 27px;
+    height: 64px;
+    width: 175px;
+}
+
+.mkt_head .kuaixinglog {
+    float: left;
+    margin-right: 27px;
+    margin-top: 6px;
+    background: url(//webresource.c-ctrip.com/ResUnionOnline/R3/PcHeader/NuoMi/IMG/bdkxlogo.png) no-repeat;
+    height: 64px;
+    width: 175px;
+}
+
+.mkt_head .guangjiaohuilog {
+    float: left;
+    margin-right: 27px;
+    margin-top: 10px;
+    background: url(//webresource.c-ctrip.com/ResUnionOnline/R3/PcHeader/NuoMi/IMG/gjhlogo.png) no-repeat;
+    height: 64px;
+    width: 175px;
+}
+
+.mkt_head .dh2345log {
+    float: left;
+    margin-right: 27px;
+    margin-top: 6px;
+    background: url(//webresource.c-ctrip.com/ResUnionOnline/R3/PcHeader/NuoMi/IMG/2345logo.png) no-repeat;
+    height: 64px;
+    width: 175px;
+}
+
+.mkt_head .nongyebank {
+    float: left;
+    margin-right: 27px;
+    margin-top: 13px;
+    background: url(//images4.c-ctrip.com/img3/marketing/2016/06/nyyh.png) no-repeat;
+    height: 64px;
+    width: 175px;
+}
+
+.mkt_head .qiongyoulog {
+    float: left;
+    margin-right: 27px;
+    margin-top: 13px;
+    background: url(//images4.c-ctrip.com/img3/marketing/2016/06/qylvlog.png) no-repeat;
+    height: 64px;
+    width: 175px;
+}
+
+.mkt_head .bdlylog {
+    float: left;
+    margin-right: 27px;
+    background: url(//webresource.c-ctrip.com/ResUnionOnline/R3/PcHeader/NuoMi/IMG/bdly.png) no-repeat;
+    height: 64px;
+    width: 175px;
+}
+
+.mkt_head .ctriplog {
+    margin-top: 12px;
+    width: 126px;
+    height: 43px;
+    float: left;
+    background: url(//webresource.c-ctrip.com/ResUnionOnline/R3/PcHeader/NuoMi/IMG/c_logo2013.png) no-repeat;
+}
+
+.mkt_head .ctripbanner {
+    float: right;
+    background: url(//webresource.c-ctrip.com/ResUnionOnline/R3/PcHeader/NuoMi/IMG/banner.jpg) no-repeat;
+    width: 780px;
+    height: 64px;
+}
+
+.mkt_head .nuomibanner {
+    float: right;
+    width: 780px;
+    height: 64px;
+}
+
+.mkt_nav {
+    width: 100%;
+    background-color: #2577E3;
+    height: 44px;
+    margin-bottom: 12px;
+}
+
+.mkt_menu li,
+.mkt_menu li a {
+    font-size: 20px;
+    color: #fff;
+    line-height: 44px;
+    font-family: 微软雅黑;
+    text-decoration: none;
+}
+
+.mkt_menu li {
+    display: block;
+    float: left;
+    padding: 0 40px;
+}
+
+.mkt_menu li.cur,
+.mkt_menu li:hover {
+    background-color: #0053BE;
+}
+
+.onFousElement {
+    background-color: #0053BE;
+}
+
+.outFousElement {
+    background-color: #2577E3;
+}
+
+.mkt_login {
+    position: relative;
+}
+
+.mkt_login a {
+    height: 100%;
+    display: inline-block;
+}
+
+.mkt_login a,
+.mkt_login span {
+    font-size: 14px;
+    color: #fff;
+    line-height: 44px;
+    font-family: 微软雅黑;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.point_arrow {
+    padding-left: 3px;
+}
+
+.login_meun {
+    display: none;
+    position: absolute;
+    top: 44px;
+    z-index: 10;
+    border: 1px solid #c3c3c3;
+    border-top: none;
+    width: 131px;
+    background-color: #fff;
+    color: #333;
+    text-align: left;
+    line-height: 1.5;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.login_meun ul li:hover {
+    background: #2577E3;
+    width: 100%;
+}
+
+.login_meun ul li:hover a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.login_meun ul li a {
+    color: #2577E3;
+}
+
+
+/* 底部文件 */
+
+.jp_footer {
+    width: 1000px !important;
+    clear: both;
+    text-align: center;
+    padding-top: 15px;
+    margin: 0 auto 20px;
+    line-height: 1.5;
+    font-family: Arial, verdana !important;
+    color: #4c4c4c;
+    font-size: 12px
+}
+
+.jp_footer p {
+    margin: 0;
+    padding: 0
+}
+
+.jp_footer a {
+    color: #4c4c4c;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.jp_footer a:hover {
+    text-decoration: underline;
+}
+
+.jp_honour_wrap {
+    display: inline-block;
+    padding-top: 10px;
+    text-align: left
+}
+
+.jp_honour_wrap a {
+    float: left;
+    margin: 0 5px;
+    width: 88px;
+    height: 32px;
+    border: 1px solid #d1d1d1;
+    border-radius: 2px;
+    font: 12px/32px Simsun;
+    color: #666;
+    overflow: hidden;
+    text-indent: -99em;
+    white-space: normal
+}
+
+.jp_honour_wrap a:hover {
+    text-decoration: none;
+}
+
+.jp_police .icon-gns,
+.jp_footer .jp_honour_wrap a,
+.jp_honour_wrap a,
+.jp_honour_wrap span {
+    background-image: url(//pic.c-ctrip.com/platform/online/home/phone_list20160105.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 0 0
+}
+
+.jp_police .icon-gns {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    background-position: 0 -235px;
+    vertical-align: middle
+}
+
+p.jp_police {
+    margin-top: 7px;
+}
+
+.jp_footer .jp_honour_wrap .honour1 {
+    background-position: -88px -50px;
+    text-indent: 36px
+}
+
+.jp_footer .jp_honour_wrap .honour2 {
+    background-position: -88px -85px;
+    text-indent: 36px
+}
+
+.jp_footer .jp_honour_wrap .honour3 {
+    background-position: 0 -50px
+}
+
+.jp_footer .jp_honour_wrap .honour4 {
+    background-position: -88px -118px;
+    text-indent: 0;
+    padding: 2px 0 2px 37px;
+    width: 51px;
+    height: 28px;
+    line-height: 1.2
+}
+
+.jp_footer .jp_honour_wrap .honour5 {
+    background-position: 0 -84px
+}
+
+.jp_footer .jp_honour_wrap .honour6 {
+    background-position: 0 -118px
+}
+
+.jp_footer .jp_honour_wrap .honour7 {
+    background-position: 0 -193px;
+    width: 90px
+}

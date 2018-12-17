@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+	</head>
+	<body>
+		<div id="header">
+			<a id="logo" href="#">
+				<img src="img/logo-nuomi.png"/>&nbsp;|&nbsp;&nbsp;登录
+			</a>
+			<div id="r">
+				还没有百度糯米账号
+				<a href="registered.html"><button id="login">注册</button></a>
+			</div>
+		</div>
+		<div id="lin">
+			
+		</div>
+		<div id="box">
+			<div id="box01">
+				<img src="img/lovely.png"/>
+				<div id="cont">
+					<div id="tou">
+						<h3 class="h">登录百度糯米</h3>
+						<div id="sp1">
+							<span>
+							您输入的帐号或密码有误,<a href="#">忘记密码</a>?
+						</span>
+						</div>
+						<a class="aa"  href="#"><img src="img/phone.png" style="width: 15px; height: 20px;"/>短信快捷登录</a>
+					</div>
+					<form action="php.php" method="post">
+					<div class="list1">
+						<div class="sbox">
+							<span class="sp">
+							
+							</span>
+							<input type="text" class="usename" name="userId" id="n1" placeholder="手机/邮箱/用户名/糯米账号" />
+							<span class="pand1" id="pand">
+							
+							</span>
+						</div>
+						<div class="sbox1">
+							<span class="sp2">
+							
+							</span>
+							<input type="text" class="usename" name="userPass" id="n2" placeholder="密码" />
+							<span class="pand1" id="pand">
+							
+							</span>
+						</div>
+						<div id="agreement">
+							<input type="checkbox" id="ck"  style="float: left; margin-top: 3px;"/>
+							<p style="display: block;font-size: 12px;color: #666; float: left;">下次自动登录</p>
+							<a id="lg1" style="display: block;" href="#">登录遇到问题</a>
+						</div>
+						<a href="#"><input type="submit" id="lg" value="登录" /></a>
+						<div id="qq">
+							<img src="img/b3.png"/>
+							<img src="img/b4.png"/>
+						</div>
+					</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="foot">
+			<ul>
+				<li><a href="#">关于百度糯米</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+				<li><a href="#">常见问题</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+				<li><a href="#">违规投诉</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+				<li><a href="#">开放平台</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+				<li><a href="#">用户协议</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+				<li>客服电话：<span>400-9216-666</span>（每天9:00 - 22:00）</li>
+			</ul>
+		</div>
+		<div id="foot01">
+			<p>©2015&nbsp;&nbsp;nuomi.com&nbsp;&nbsp;<a href="#">京ICP证030173号 </a>&nbsp;&nbsp;京公网安备11010802014106号</p>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.js" ></script>
+<script type="text/javascript">
+	$("#n1").focus(function(){
+		$(this).parent().css({
+			border:"1px solid #ff6699"
+		});
+		$(this).prev().css({
+			"backgroundPosition":"0 -17px"
+		});
+	})
+	$("#n1").blur(function(){
+		$(this).parent().css({
+			border:"1px solid #dddddd"
+		});
+		$(this).prev().css({
+			"backgroundPosition":"0 0"
+		});
+	})
+	$("#n2").focus(function(){
+		$(this).parent().css({
+			border:"1px solid #ff6699"
+		});
+		$(this).prev().css({
+			"backgroundPosition":"0 -20px"
+		});
+	})
+	$("#n2").blur(function(){
+		$(this).parent().css({
+			border:"1px solid #dddddd"
+		});
+		$(this).prev().css({
+			"backgroundPosition":"0 0"
+		});
+	})
+</script>

@@ -1,0 +1,22 @@
+/* 
+reset 
+ */
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,em,button{margin:0;padding:0;}
+body{ font:12px/1.5 arial,Simsun, sans-serif; color:#333; background-color: #fff; }
+img, fieldset{border:none;vertical-align:middle;}
+input, textarea{font-size:12px;}
+table{border-collapse:collapse;}
+a{color:#3983E5;text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+h1,h2,h3,h4,h5{font-family:"Times New Roman",Simsun;}
+ul,ol{list-style:none;}
+input[type="button"],input[type="submit"]{-webkit-appearance:none;}
+input[type="text"]{border-radius:0;}
+.hide{display: none;}
+.iefix-bg{position:absolute;height:33px;bottom:0;width:100%;background:#000\9;filter:alpha(opacity=40)\9;opacity:0.4\9;z-index:1\9;}   /*IE6/7/8 alpha bugfix */
+:root .iefix-bg{display:none\9;}  /*IE9 alpha bugfix */
+.mr20{margin-right:20px;}
+.mb10{margin-bottom:10px;}
+.ml5{margin-left:5px;}
+.combo_class h4.combo_class_tit{font-family: "Microsoft YaHei"}

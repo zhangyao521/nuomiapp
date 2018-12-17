@@ -1,0 +1,217 @@
+
+/*header*/
+#header{
+	width: 70%;
+	height: 8%;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+#logo{
+	line-height: 75px;
+	font-size: 20px;
+	color:#666;
+	float: left;
+}
+#r{
+	float: right;
+	line-height: 75px;
+	color: #666;
+	font-size: 16px;
+}
+#login{
+	width: 80px;
+	height: 30px;
+	/*border: 0; */
+	color: #666;
+	font-weight: 700;
+	border:1px solid #dddddd;
+	font-size: 100%;
+	background:#f7f7f7 ;
+}
+#lin{
+	border: 1px solid #ccc;
+	/*height: 1px;*/
+	width: 80%;
+	margin:0 auto ;
+	margin-top: 75px;
+	box-shadow: 0 0 2px 0 #ccc;
+}
+/*注册*/
+
+#reg{
+	width: 70%;
+	height: 500px;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+#reg_1{
+	padding-top: 100px;
+	float: left;
+}
+.p1{
+	float: left;
+	line-height: 40px;
+	margin-left: 1px;
+}
+.usename{
+	width: 350px;
+	height: 40px;
+	padding-left: 10px;
+	border:1px solid #dddddd ;
+	margin-left: 10px;
+	float: left;
+	outline: none;
+}
+.sp1{
+	font-size: 14px;
+	color: #666;
+}
+.pand1{
+	float: left;
+}
+
+.sp2{
+	font-size: 14px;
+	color: #666;
+}
+.prompt{
+	float: left;
+	padding-left: 20px;
+	display: none;
+}
+.list2{
+	clear: both;
+	padding-top: 50px;
+}
+.list3{
+	clear: both;
+	padding-top: 50px;
+}
+#mima{
+	border:1px solid #ddd ;
+	background: #f9f9f9;
+	margin-left: 20px;
+	
+}
+#mima>ul>li{
+	list-style-type:circle;
+}
+.list4{
+	clear: both;
+	padding-top: 50px;
+}
+.list4>.usename{
+	width: 178px;
+}
+#suiji{
+	font-size: 20px;
+	border: 1px solid #ccc;
+	width: 100px;
+	height: 40px;
+	display: block;
+	text-align: center;
+}
+#agreement{
+	clear: both;
+	padding-top: 50px;
+	padding-left:60px;
+	overflow: hidden;
+}
+#big{
+/*	clear: both;*/
+	width: 350px;
+	height: 50px;
+	background: #fa6790;
+	color: white;
+	text-align: center;
+	line-height:50px ;
+	margin-top: 50px;
+	margin-left:60px;
+	border: 0;
+}
+#fast{
+	width:260px;
+	height: 480px;
+	float: right;
+	border:1px solid #ccc ;
+	margin-top: 100px;
+	background: #f5fbff;
+}
+#im{
+	width: 18px;
+	height: 30px;
+	float: left;
+	
+	padding-top: 10px;
+}
+#fast1{
+	width: 238px;
+	height: 51px;
+	border-bottom: 1px solid #ccc;
+	margin:0 10px;
+}
+#tou{
+	height: 51px;
+	padding-left: 10px;
+	display: block;
+	text-align: center;
+	line-height: 51px;
+	color:#666 ;
+	margin:0 auto ;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.tou01{
+	font-size: 12px;
+	margin: 0 10px;
+	padding-top: 20px;
+	display: block;
+	
+}
+.tou02{
+	font-size: 14px;
+	font-weight: 700;
+	color: #f18300;
+	display: block;
+	padding-bottom: 20px;	
+	line-height: 30px;
+	margin: 0 10px;
+}
+.tou03{
+	font-size: 12px;
+	margin: 0 10px;
+	display: block;
+	line-height: 30px;
+}
+.tou04{
+	font-size: 14px;
+	font-weight: 700;
+	color: #f18300;
+	display: block;
+	/*padding-bottom: 20px;*/
+	line-height: 30px;
+	margin: 0 10px;
+}
+.tou05{
+	font-size: 12px;
+	margin: 0 10px;
+	display: block;
+	line-height: 30px;
+}
+
+.ims{
+	width: 168px;
+	height: 168px;
+	text-align: center;
+	margin: 0 auto;
+	display:block;
+	padding-top: 30px;
+}
+.tou06{
+	font-size: 12px;
+	padding-left: 65px;
+	display: block;
+	line-height: 30px;
+}

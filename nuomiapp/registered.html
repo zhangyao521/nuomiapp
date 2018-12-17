@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/registerd.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+	</head>
+	<body>
+		<div id="header">
+			<a id="logo" href="#">
+				<img src="img/logo-nuomi.png"/>&nbsp;|&nbsp;&nbsp;注册百度账号
+			</a>
+			<div id="r">
+				我以注册，现在就
+				<a href="login.html"><button id="login">登录</button></a>
+			</div>
+		</div>
+		<div id="lin">
+			
+		</div>
+		
+		<div id="reg">
+		<form action="php2.php" method="post">
+			<div id="reg_1">
+				<div class="list1">
+					<p class="p1">用户名</p>
+					<input type="text" class="usename" name="userId" id="n1" placeholder="请设置用户名" />
+					<div class="prompt">
+						<span class="sp1">设置后不可更改</span><br />
+						<span class="sp2">	中英文均可，最长14个英文或7个汉字</span>
+					</div>
+					<span class="pand1" id="pand">
+						
+					</span>
+				</div>
+				<br/>
+				<div class="list2">
+					<p class="p1">手机号</p>
+					<input type="text" class="usename" id="n2" placeholder="可用于登录和找回密码" />
+					<div class="prompt">
+						<span class="sp2" style="line-height: 40px;">	请输入中国大陆手机号，其他用户不可见</span>
+					</div>
+					
+				</div>
+				<br />
+				<div class="list3">
+					<p class="p1">密码</p>
+					<input type="text" class="usename" name="userPass" id="n3" placeholder="请设置登录密码" />
+					<div class="prompt" id="mima">
+						<ul >
+							<li>长度为6~14个字符</li>
+							<li>支持数字，大小写字母和标点符号</li>
+							<li>不允许有空格</li>
+						</ul>
+					</div>
+				</div><br />
+				<div class="list4">
+					<p class="p1">验证码</p>
+					<input type="text" class="usename" id="n4" placeholder="请输入验证码" />
+					<div class="prompt">
+						<span id="suiji" class="sp2" style="line-height: 40px;"></span>
+					</div>
+				</div>
+				<div id="agreement">
+					<input type="checkbox" id="ck" style="float: left; margin-top: 3px;"/>
+					<p style="display: block;font-size: 12px;color: #666; float: left;">阅读并接受<a href="">《百度用户协议》</a>及<a href="">《百度隐私权保护声明》</a></p>
+				</div>
+				<input type="submit"  id="big" value="注册" />
+			</div>
+			</form>
+			<div id="fast">
+				<div id="fast1">
+					<img id="im" src="img/phone.png"/>
+					<p id="tou"> 手机快速注册</p>
+				</div>
+				
+				<p class="tou01">请使用中国大陆手机号，编辑短信：</p>
+				<p class="tou02">6-14位字符（支持数字/字母/符号）</p>
+				<p class="tou03">作为登录密码，发送至：</p>
+				<p class="tou04">1069 0691 036590</p>
+				<p class="tou05">即可注册成功，手机号即为登录帐号。</p>
+				<img class="ims" src="img/upreg.png"/>
+				<p class="tou06">请使用手机百度进行扫码</p>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.js" ></script>
+<script type="text/javascript" src="js/tools.js" ></script>
+<script type="text/javascript">
+	window.onload=function(){
+		$("#n1").focus(function(){
+			$("#n1").next().css({
+				"display":"block"
+			});
+			$("#n1").css({
+				"border":"1px solid #ff79a5"
+			});
+						
+		});
+		$("#n1").blur(function(){
+			$("#n1").next().css({
+				"display":"none"
+			});
+			$("#n1").css({
+				"border":"1px solid #ddd"
+			});
+//				var reg = /^[a-zA-Z_]\w{5,14}$/;
+//				var str=$(this).val();
+//				if(reg.test(str)){
+//					$("#pand").html("聪聪");
+//				}else{
+//					$("#pand").html("聪聪2222");
+//				}
+		});
+		$("#n2").focus(function(){
+			$("#n2").next().css({
+				"display":"block"
+			});
+			$("#n2").css({
+				"border":"1px solid #ff79a5"
+			});
+						
+		});
+		$("#n2").blur(function(){
+			$("#n2").next().css({
+				"display":"none"
+			});
+			$("#n2").css({
+				"border":"1px solid #ddd"
+			});
+		});
+		$("#n3").focus(function(){
+			$("#n3").next().css({
+				"display":"block"
+			});
+			$("#n3").css({
+				"border":"1px solid #ff79a5"
+			});
+						
+		});
+		$("#n3").blur(function(){
+			$("#n3").next().css({
+				"display":"none"
+			});
+			$("#n3").css({
+				"border":"1px solid #ddd"
+			});
+		});
+		$("#n4").focus(function(){
+			$("#n4").next().css({
+				"display":"block"
+			});
+			$("#n4").css({
+				"border":"1px solid #ff79a5"
+			});
+			let t=suiJi(4);
+			console.log(t)
+			$("#suiji").html(t);
+			$("#suiji").css({
+				background:getColor(),
+				color:getColor()
+			})
+		});
+		$("#n4").blur(function(){
+			$("#n4").next().css({
+				"display":"none"
+			});
+			$("#n4").css({
+				"border":"1px solid #ddd"
+			});
+		});
+		
+		
+	}
+//	|u4e00-\u9fa5]{2,7}
+</script>
